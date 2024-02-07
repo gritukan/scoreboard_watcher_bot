@@ -1,0 +1,63 @@
+{
+    "fetcher": {
+        "scoreboard_url": "http://scoreboard.ioi2017.org",
+        "retries": 5,
+        "first_retry_delay": "0.2s",
+        "retry_delay_exponent": 1.7
+    },
+    "state": {
+        "filename": "state.json"
+    },
+    "participants": [
+        {
+            "login": "RUS_2d1",
+            "name": "Aleksandra Drozdova"
+        },
+        {
+            "login": "RUS_2d2",
+            "name": "Egor Lifar"
+        },
+        {
+            "login": "RUS_2d3",
+            "name": "Vladimir Romanov"
+        },
+        {
+            "login": "RUS_2d4",
+            "name": "Denis Shpakovskii"
+        }
+    ],
+    "problems": [
+        {
+            "id": "nowruz",
+            "name": "nowruz",
+            "fractional_scoring": true,
+            "mute": true
+        },
+        {
+            "id": "wiring",
+            "name": "wiring",
+            "mute": true
+        },
+        {
+            "id": "train",
+            "name": "train",
+            "mute": true
+        },
+        {
+            "id": "prize",
+            "name": "prize",
+            "fractional_scoring": true
+        },
+        {
+            "id": "simurgh",
+            "name": "simurgh"
+        },
+        {
+            "id": "books",
+            "name": "books"
+        }
+    ],
+    "contest_start_time": "2019-08-06 08:00:00",
+    "main_chat": "@ioi_watch_test",
+    "positive_chat": "@positive_ioi_watch_test"
+}
